@@ -41,6 +41,12 @@
       "name": "Community",
       "icon": "discord",
       "url": "https://adata.one/discord"
+    },
+    {
+      "name": "API Reference",
+      "openapi": "api-reference/openapi.json",
+      "url": "api-reference",
+      "icon": "square-terminal"
     }
   ],
   "navigation": [
