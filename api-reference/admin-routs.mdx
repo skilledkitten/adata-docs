@@ -1,0 +1,27 @@
+---
+title: "Admin Routes"
+description: "Routes for administrative operations in aDataAPI."
+---
+
+# Admin Routes
+
+### Create Keys
+**POST /admin/createkeys <key> <amount> <days>**
+
+This route is used by admins to generate a set of keys for user creation.
+
+**Parameters:**
+- `<key>`: Admin key for authentication.
+- `<amount>`: Number of keys to generate.
+- `<days>`: Validity period (in days) of generated keys.
+
+**Example Request:**
+```bash
+POST https://your-deployment-url.vercel.app/admin/createkeys
+{
+  "key": "aData.a8787093474956862354jdhsd786872345",
+  "amount": 5,
+  "days": 30
+}
+
+
